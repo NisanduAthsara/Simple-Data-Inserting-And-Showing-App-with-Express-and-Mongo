@@ -65,3 +65,153 @@ body{
 .fa-user{
     padding-right:5px;
 }
+
+.err_banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height:20%;
+}
+
+.err_a{
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+}
+
+.icon_space{
+    margin:20px;
+    background-color: rgb(128, 247, 81);
+    padding:10px;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .err_banner{
+        width:40%;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .err_banner{
+        width:50%;
+    }
+    .err_a{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .err_banner{
+        width:60%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .err_banner{
+        width:70%;
+    }
+}
+
+.new_err_a{
+    font-size:18px;
+}
+
+.add_new_user_form{
+    margin-left:30%;
+    margin-top:40px;
+}
+
+.add_new_user_form label{
+    font-size:18px;
+    margin:20px;
+}
+
+.inner_add_nuser_f{
+    margin-bottom:70px;
+}
+
+.add_new_user_form input[type='text'],.add_new_user_form input[type='email']{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding:7px;
+    width:450px;
+}
+
+.add_new_user_form input[type='radio']{
+    height:25px;
+    width:25px;
+    border-radius: 50%;
+    margin-right:8px;
+}
+
+.gender_label{
+    font-size:18px;
+}
+
+.sec_gen_label{
+    margin-left:30px;
+}
+
+.form_submit_btn{
+    margin-left:20px;
+    padding:10px;
+    width:120px;
+    font-size:17px;
+    border:none;
+    background-color: #000;
+    color:#fff;
+    border-radius:10px;
+    cursor:pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.form_submit_btn:hover{
+    background-color:#fff;
+    color:#000;
+    border:1px solid #000;
+    border-radius:10px;
+}
+
+.placeholder_txt::-webkit-input-placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
+  
+  .placeholder_txt:-ms-input-placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
+  
+  .placeholder_txt:-moz-placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
+  
+  .placeholder_txt::-moz-placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
+
+@media only screen and (max-width: 1230px) {
+    .add_new_user_form{
+        margin-left:20%;
+    }
+}  
+
+@media only screen and (max-width: 870px) {
+    .add_new_user_form{
+        margin-left:10%;
+    }
+}  
+
+
+@media only screen and (max-width: 775px) {
+    .add_new_user_form{
+        margin-left:5%;
+    }
+    .add_new_user_form input[type='text'],.add_new_user_form input[type='email']{
+        width:50%;
+    }
+}  

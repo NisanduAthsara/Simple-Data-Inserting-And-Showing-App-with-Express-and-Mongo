@@ -1,0 +1,36 @@
+<!--Include header-->
+<%- include('inc/_header.ejs') %>
+
+    <div class="main banner">
+        <h1 class="header1">Add New User</h1>
+    </div>
+
+    <a href="/" class="err_a new_err_a"><i class="fa-solid fa-angles-left icon_space"></i>Back</a>
+
+    <form action="" method="POST" class="add_new_user_form">
+        <div class="inner_add_nuser_f">
+            <label for="name">Name : </label>
+            <input type="text" name="name" id="" required placeholder="Jhon Doe" class="placeholder_txt"><br>
+        </div>
+
+        <div class="inner_add_nuser_f">
+            <label for="email">Email : </label>
+            <input type="email" name="email" id="" required placeholder="example@gmail.com" class="placeholder_txt"><br>
+        </div>
+
+        <div class="inner_add_nuser_f">
+            <label for="contact">Contact No. : </label>
+            <input type="text" name="contact" id="" required placeholder="+92 777 77 77 77" class="placeholder_txt"><br>
+        </div>
+
+        <div class="inner_add_nuser_f">
+            <label for="gender">Gender : </label>
+            <input type="radio" name="gender" id="" value="Male" class="gender_label">Male
+            <input type="radio" name="gender" id="" value="Female" class="gender_label sec_gen_label">Female
+        </div>
+
+        <input type="submit" value="Submit" class="form_submit_btn">
+    </form>
+
+    <!--Include footer-->
+    <%- include('inc/_footer.ejs') %>
