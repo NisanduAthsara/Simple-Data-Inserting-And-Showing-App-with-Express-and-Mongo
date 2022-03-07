@@ -16,13 +16,15 @@
             <th>Contact No.</th>
             <th>Gender</th>
         </tr>
+        <% for(var i = 0; i < data.length; i++){%>
         <tr>
-            <td>1</td>
-            <td>Nisandu</td>
-            <td>nisandunox@gmail.com</td>
-            <td>0771295378</td>
-            <td>Male</td>
+            <td><%=i+1%></td>
+            <td><%=data[i].name%></td>
+            <td><%=data[i].email%></td>
+            <td><%=data[i].contact_no%></td>
+            <td><%=data[i].gender%></td>
         </tr>
+        <%}%>
     </table>
 
     <!--include footer-->
