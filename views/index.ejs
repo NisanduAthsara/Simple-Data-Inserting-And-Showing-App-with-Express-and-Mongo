@@ -1,5 +1,29 @@
 <!--include header-->
 <%- include('inc/_header.ejs') %>
-    <h1>Dash</h1>
-<!--include footer-->
-<%- include('inc/_footer.ejs') %>
+    <div class="main banner">
+        <h1 class="header1">Dashboard</h1>
+    </div>
+
+    <div class="add_user_btn">
+        <a href="" class="add_new_link"><i class="fa-solid fa-user"></i> Add New</a>
+    </div>
+
+    <table class="dashboard-t">
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Contact No.</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Nisandu</td>
+            <td>nisandunox@gmail.com</td>
+            <td>0771295378</td>
+            <td>Male</td>
+        </tr>
+    </table>
+
+    <!--include footer-->
+    <%- include('inc/_footer.ejs') %>

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Roboto:ital,wght@0,300;1,500&family=Source+Sans+Pro:wght@600;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.header1{
+    text-align:center;
+    font-size:45px;
+    background-color:rgb(42, 55, 88);
+    padding-top:20px;
+    padding-bottom: 20px;
+    color:white;
+}
+
+.dashboard-t{
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.dashboard-t th{
+    font-size: 18px;
+    background-color: rgb(21, 30, 59);
+    padding:20px;
+    color:#fff;
+}
+
+.dashboard-t td{
+    padding:20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align:center;
+    font-size: 18px;
+}
+
+.dashboard-t tr:nth-child(even){background-color: #f2f2f2;}
+
+.dashboard-t tr:hover {background-color: #ddd;}
+
+.add_user_btn{
+    margin-left:30%;
+    font-size:18px;
+    margin-top:70px;
+    padding:15px;
+    width:100px;
+    background-color:rgb(23, 111, 117);
+    box-shadow: 10px 5px 5px #888888;
+    border-radius:4px;
+}
+
+.add_new_link{
+    text-decoration:none;
+    color:#000;
+}
+
+.fa-user{
+    padding-right:5px;
+}
