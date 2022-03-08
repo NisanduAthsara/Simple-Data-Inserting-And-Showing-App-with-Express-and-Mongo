@@ -16,7 +16,7 @@ module.exports.save = (req,res)=>{
         New_User
             .save(New_User)
             .then(data =>{
-                res.redirect('/add-new')
+                res.redirect('/add-new?user_add=true')
             })
             .catch(err =>{
                 res.status(500).send({message:err})

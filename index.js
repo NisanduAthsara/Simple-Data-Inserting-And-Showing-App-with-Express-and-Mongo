@@ -16,6 +16,7 @@ app.use(express.urlencoded({extended:true}))
 //set public assets
 app.use('/css',express.static(path.join(__dirname,'assets/css')))
 app.use('/img',express.static(path.join(__dirname,'assets/img')))
+app.use('/js',express.static(path.join(__dirname,'assets/js')))
 
 //use routes
 app.use(router)
